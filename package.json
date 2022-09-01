@@ -1,0 +1,16 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "kotatsu serve app.js --public / ./public",
+    "build": "kotatsu build client app.js -o ./dist"
+  },
+  "dependencies": {
+    "graphology": "^0.24.1",
+    "graphology-layout": "^0.5.0",
+    "graphology-layout-forceatlas2": "^0.8.2",
+    "sigma": "^2.2.0"
+  },
+  "devDependencies": {
+    "kotatsu": "^0.22.3"
+  }
+}
